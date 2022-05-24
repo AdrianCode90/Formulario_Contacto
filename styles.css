@@ -1,0 +1,94 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url(img/fondo-escritorio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.form-title{
+
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    text-align: center;
+    padding: 14px 0;
+}
+
+
+span{
+
+    color: #fff;
+}
+
+
+.form{
+
+    background-color: rgba(0, 0, 0, .6);
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 5px 35px 35px 35px;
+    border-radius: 3px;
+}
+
+
+.form-label{
+
+    display: block;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form-input , .form-textarea{
+
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form-textarea{
+
+    resize: vertical;
+    max-height: 100px;
+    min-height: 50px;
+}
+
+
+.btn-submit{
+
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    background-color: rgb(250, 178, 43);
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+
+.btn-submit:hover{
+
+    background-color: #ff8400;
+}
